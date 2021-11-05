@@ -18,7 +18,7 @@ void PrintArr(int a[], const int n) {
 int Amount(int a[], const int n) {
 	int am = 0;
 	for (int i = 0; i < n; i++) {
-		if (a[i] % 2 == 1 || a[i] % 2 == -1)
+		if (a[i] % 2 != 0)
 			am++;
 	}
 	return am;
